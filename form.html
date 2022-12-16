@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task form</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+       
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact us</h1>
+    </header>
+
+   
+    <form action="/challenge" method="GET">
+        <section>
+        <h1  id="head">How can we help you?</h1>
+<ul>
+<li>
+    <label for="username">Your Name</label>
+    <input type="text" id="username" name="username">
+</li>
+<li>
+    <label for="useremail">Your Email Address</label>
+    <input type="email" id="useremail" name="email">
+
+</li>
+<li>
+    <label for="usernumber">Your Phone Number</label>
+    <input type="tel" id="usernumber" name="number">
+
+</li>
+<li>
+
+
+    <label for="usermsg">Your Message</label>
+    <textarea name="message" id="" cols="30" rows="10" required ></textarea>
+</li>
+</ul>
+
+</section>
+<section>
+
+    <label for="userfind">how did you find us?</label>
+    <select name="userfind" id="userfind">
+        <option value="websearch">Web Search</option>
+        <option value="facebook">Facebook</option>
+        <option value="instagram">Instagram</option>
+    </select>
+
+</section>
+
+<section>
+    <h1>How should we reply?</h1>
+<ul>
+
+    <li class="form-control"> 
+        <input id="verify-call"  type="radio"  name="verify" value="call">
+        <label for="verify-call">Call me</label>
+
+    </li>
+
+    <li class="form-control">
+        <input id="verify-msg" type="radio" name="verify" value="email">
+        <label for="verify-msg">Send me an email</label>
+
+
+    </li>
+    <li class="form-control">
+        <input id="verify-reply" type="radio" name="verify" value="reply">
+        <label for="verify-reply">Don't reply</label>
+
+
+    </li>
+   
+</ul>
+</section>
+<section class="form-control">
+
+    <input  id="userterms"type="checkbox">
+    <label for="userterms">Accept terms</label>
+</section>
+
+<section id="position">
+    <button  type="reset">Clear</button>
+    <button  type="submit">Submit</button>
+    </section>
+    
+
+
+</form>
+
+
+<footer>
+    <a href="/index.html">Go Back to previous page</a>
+</footer>
+
+
+
+
+  
+</body>
+</html>
